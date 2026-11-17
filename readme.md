@@ -66,28 +66,28 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 1 (Lunes 16 de Noviembre 2026)
 
-<!-- - Presentación profesor / alumnos
+- Presentación profesor / alumnos
 - Introducción: Qué es un SCV y qué un SCV distribuido
 - IDE / Editor de código: Visual Studio Code (VSC)
 - Instalación de Git
 - Terminales
   Configuración inicial
-  - Nombre de usuario y correo electrónico -->
+  - Nombre de usuario y correo electrónico
 
-- [Descanso] 11:10 - 11:40
+- Primeros pasos con Git
 
-<!-- - Primeros pasos con Git
-
-  - Primer repo (init), primer commit: .gitignore / readme.md
+  - Primer repo (init), primer commit: .gitignore / readme.md / .editorconfig
   - Anatomía de un repositorio git: working directory, staging area (index o cache) y repositorio (.git)
   - Estados de un archivo: untracked (U), tracked (modified (M), staged (A), committed)
-  - add/commit/reset y status/log/show - GitGraph
+  - add/commit/restore y status/log/show - GitGraph
   - Mensajes de commit
 
 - Anatomía de comandos típicos, referencias VS paths
 
   - HEAD, main, HEAD~1 y otras referencias útiles
   - Referencias por mensaje de commit (:/cadena)
+
+- [Descanso] 11:30 - 12:00
 
 - Integración con otras herramientas y entornos
   - Clientes gráficos
@@ -106,11 +106,19 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 - Ficheros Markdown
   - Qué son
   - Sintaxis básica
-  - Vista previa en VSC / GitHub / GitLab -->
+  - Vista previa en VSC / GitHub / GitLab
+
+- Operaciones en la Staging Area (Index)
+  - Añadir ficheros
+  - Eliminar de la Staging Area (Index)
+  - git add -p
+- Eliminar ficheros: git rm
+  - Problemas con .gitignore
+- Cambiar nombre de ficheros: git mv
 
 ### Día 2 (Martes 17 de Noviembre 2026)
 
-<!-- - Git internals
+- Git internals
 
   - Estructura de un repositorio git: .git
   - Objetos git: blobs, trees, commits (y tags)
@@ -118,22 +126,17 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Creación del árbol de objetos en un primer commit
     - Modificación del árbol de objetos en commits sucesivos
   - Referencias: heads, ramas (tags y remotes)
-  - Taller: creación de un repositorio git "a mano" -->
+  - Taller: creación de un repositorio git "a mano"
 
-- [Descanso] 11:00 - 11:30
-
-<!-- - Herramientas para preparar un buen commit en cualquier situación
-
-  - Operaciones en la Staging Area (Index)
-    - Añadir ficheros
-    - Eliminar de la Staging Area (Index)
-    - git add -p
-  - Eliminar ficheros: git rm
-    - Problemas con .gitignore
-  - Cambiar nombre de ficheros: git mv
+- Otros comandos de Git
   - git blame
   - git notes
-  - Recapitulando: Git básico
+
+- [Descanso] 11:30 - 12:00
+
+- Recapitulando: Git básico
+
+- Herramientas para preparar un buen commit en cualquier situación
 
   - Reescribiendo la historia
     - Advertencia
@@ -148,15 +151,19 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - rebase interactivo
       - reword: cambiando el mensaje de un commit
       - edit: modificando un commit
-      - drop: eliminando un commit -->
+      - pick: reordenando commits
+      - squash y fixup: fusionando commits
+
+<!-- 
+  - rebase interactivo
+      - drop: eliminando un commit
+      - caso de uso: información sensible
+-->
 
 ### Día 3 (Miércoles 18 de Noviembre 2026)
 
- <!-- - Reescribiendo la historia (2)
-    - rebase interactivo
-      - pick: reordenando commits
-      - squash y fixup: fusionando commits
-- Otros comandos
+ <!-- 
+  Otros comandos
   - git clean
   - git revert
   - git bisect
