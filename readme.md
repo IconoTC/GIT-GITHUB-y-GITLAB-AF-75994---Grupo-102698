@@ -125,7 +125,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Creación y lectura de objetos
     - Creación del árbol de objetos en un primer commit
     - Modificación del árbol de objetos en commits sucesivos
-  - Referencias: heads, ramas (tags y remotes)
+  - Referencias: HEAD, ramas (tags y remotes)
   - Taller: creación de un repositorio git "a mano"
 
 - Otros comandos de Git
@@ -136,33 +136,28 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 - Recapitulando: Git básico
 
-- Herramientas para preparar un buen commit en cualquier situación
-
-  - Reescribiendo la historia
-    - Advertencia
-    - git commit --amend
-      - Ref logs
-    - git checkout
-      - Evolución de git checkout: Nuevos comandos git switch y git restore
-      - git checkout a nivel de archivo (restore)
-    - git reset 
-      - modificadores: --soft, --mixed, --hard
-      - git reset a nivel de archivo
-    - rebase interactivo
-      - reword: cambiando el mensaje de un commit
-      - edit: modificando un commit
-      - pick: reordenando commits
-      - squash y fixup: fusionando commits
-
-<!-- 
+- Reescribiendo la historia
+  - Advertencia
+  - git commit --amend
+    - Ref logs
+  - git checkout
+    - Evolución de git checkout: Nuevos comandos git switch y git restore
+    - git checkout a nivel de archivo (restore)
+  - git reset 
+    - modificadores: --soft, --mixed, --hard
+    - git reset a nivel de archivo
   - rebase interactivo
-      - drop: eliminando un commit
-      - caso de uso: información sensible
--->
+    - reword: cambiando el mensaje de un commit
+    - edit: modificando un commit
+    - pick: reordenando commits
+    - squash y fixup: fusionando commits
 
 ### Día 3 (Miércoles 18 de Noviembre 2026)
 
- <!-- 
+  - rebase interactivo
+      - drop: eliminando un commit
+      - caso de uso: información sensible en un commit
+
   Otros comandos
   - git clean
   - git revert
@@ -177,12 +172,12 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Borrar ramas
     - Mover y renombrar ramas
 
-  - git stash -->
+  - git stash 
 
-- [Descanso] 11:00 - 11:30
+- [Descanso] 11:05 - 11:35
 
 
-<!-- - Trabajando en paralelo (2)
+- Trabajando en paralelo (2)
   - Combinación de ramas: Merge y Rebase
     - git merge
       - fast-forward
@@ -200,7 +195,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Tags anotadas y tags ligeros
   - Crear, listar, eliminar
 
-- Worktrees -->
+- Worktrees (mencionado)
 
 ### Día 4 (Jueves 19 de Noviembre 2026)
 
