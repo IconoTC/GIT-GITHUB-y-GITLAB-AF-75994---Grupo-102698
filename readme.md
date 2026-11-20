@@ -267,20 +267,36 @@ Cuestión: conflicto en el merge con binarios (images, pdfs, etc.)
   - Hosting de Repositorios
     - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
     - forks
- <!-- 
+ 
   - Colaboración
     - pull requests: revisión de código y comentarios (v.s.)
-    - PR desde ramas y forks -->
+    - PR desde ramas y forks
  
 <!-- Inicialmente del viernes -->
 
-<!-- - GitHub (continuación)
+- GitHub (continuación)
+  
    - Colaboración
     - Proyectos
       - Tableros (Boards)
-      - issues y proyectos; milestones
+    - Issues
+      - Etiquetas (Labels)
+      - Asignación (Assignees)
+      - Milestones
+      - Templates 
     - Wikis
     - Gists
+    - Repository Insights
+        - Pulse
+        - Contributors
+        - Commits
+        - Code frequency
+        - Dependency graph
+        - Network
+        - Forks
+
+- [Descanso] 11:45 - 12:15
+
   - GitHub CLI
   - GitHub Pages
     - Configuración y uso
@@ -289,19 +305,19 @@ Cuestión: conflicto en el merge con binarios (images, pdfs, etc.)
 
 - Integración continua / Entrega continua (CI/CD)
   - Git Hooks
-    - Husky. Ejemplos -->
+    - Husky. Ejemplos
 
-- [Descanso] 11:10 - 11:40
-
-  <!-- - GitHub Actions
+  - GitHub Actions
     - Introducción
     - Workflow. Partes y sintaxis
     - Configuración y ejecución de un workflow
-    - Ejemplo de CI (build y test) de una aplicación JS 
-    - CD: despliegues
+    - Ejemplo de CI (build y test) de una aplicación JS
+
+    <!-- - CD: despliegues (Comentado)
       - Secretos
-      - Despliegue en GitHub Pages
+      - Despliegue en GitHub Pages -->
  
+  <!-- Pendiente por falta de tiempo
   - GitLab
     - Similitudes y diferencias con GitHub. Merge Request
     - CI/CD en GitLab
