@@ -199,15 +199,22 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 4 (Jueves 19 de Noviembre 2026)
 
-<!-- - Integraciones
+Cuestión: conflicto en el merge con binarios (images, pdfs, etc.)
+    - con checkout
+        - git checkout --theirs -- web/assets/angular-fundamentals.web
+        - git checkout --ours -- web/assets/angular-fundamentals.web
+    - con restore
+      -  git restore --theirs  web/assets/angular-fundamentals.web
+      -  git restore --ours  web/assets/angular-fundamentals.web
 
+<!-- - Integraciones
   - Integración con otras herramientas y entornos
     - Clientes gráficos
     - Entornos de desarrollo: VSC
       - Opciones nativas de VSC para Git
-      - Extensiones de VSC para Git: Git Graph (GitLens, Git History...)
+      - Extensiones de VSC para Git: Git Graph (GitLens, Git History...) -->
 
-- Repositorios remotos
+  - Repositorios remotos
 
   - GitHub (repositorios) v. GitLab (grupos y proyectos) 
 
@@ -222,16 +229,22 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Eliminar ramas remotas
 
   - git push
-    - push tags
+    - push --tags
   - git pull
     - git fetch
-    - git merge / git rebase -->
-
-- [Descanso] 11:00 - 11:30
-
- <!-- - git pull (continuación)
+    - git merge / git rebase
     - Conflictos
 
+- [Descanso] 10:35 - 11:05
+
+ - Pull requests (GitHub) / Merge requests (GitLab)
+ 
+- [Clase_suspendida] 11:15
+
+### Día 5 (Viernes 20 de Noviembre 2026)
+
+ <!-- (del jueves) -->
+ 
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Flujo de trabajo típico
     - Revisión de código
@@ -254,11 +267,12 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Hosting de Repositorios
     - repositorios públicos y privados; ramas y remotos: push y pull (v.s.)
     - forks
+ <!-- 
   - Colaboración
     - pull requests: revisión de código y comentarios (v.s.)
     - PR desde ramas y forks -->
  
-### Día 5 (Viernes 20 de Noviembre 2026)
+<!-- Inicialmente del viernes -->
 
 <!-- - GitHub (continuación)
    - Colaboración
